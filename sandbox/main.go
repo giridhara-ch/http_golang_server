@@ -23,13 +23,15 @@ func main() {
 		// log.Panic(err)
 		fmt.Println(err)
 	}
-	fmt.Println("user created", user)
+	// fmt.Println("user created", user)
+	fmt.Println("user created", user.Name, user.Email)
 
 	updatedUser, err := c.UpdateUser("ravikiran@domain.com", "password", "Ravi Kiran", 29)
 	if err != nil {
 		log.Fatal(err)
 	}
-	fmt.Println("user updated", updatedUser)
+	// fmt.Println("user updated", updatedUser)
+	fmt.Println("user updated", updatedUser.Name, updatedUser.Email)
 
 	getUser, err := c.GetUser("ravikiran@domain.com")
 	if err != nil {
