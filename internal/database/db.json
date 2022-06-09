@@ -1,0 +1,32 @@
+{
+    "users": {
+        "gch@domain.com": {
+            "createdAt": "2022-06-03T08:49:25.890296Z",
+            "email": "gch@domain.com",
+            "password": "SimplePass",
+            "name": "Giridhara",
+            "age": 29
+        },
+        "siva@domain.com": {
+            "createdAt": "2022-06-03T08:49:25.890297Z",
+            "email": "siva@domain.com",
+            "password": "SamplePass",
+            "name": "Siva",
+            "age": 29
+        }
+    },
+    "posts": {
+        "1001": {
+            "id": "1001",
+            "createdAt": "2022-06-03T08:49:25.890297Z",
+            "userEmail": "gch@domain.com",
+            "text": "Welcome aboard the new Go BE App!!!"
+        },
+        "1002": {
+            "id": "1002",
+            "createdAt": "2022-06-03T08:49:25.890297Z",
+            "userEmail": "siva@domain.com",
+            "text": "Welcome aboard the new Go BE App!!!"
+        }
+    }
+}
